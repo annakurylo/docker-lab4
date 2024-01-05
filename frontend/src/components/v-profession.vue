@@ -1,5 +1,5 @@
 <template>
-  <div v-if="professions.length" class="v-profession">
+  <div class="v-profession">
     <div class="v-profession__title">Professions</div>
     <div class="search-fieled">
       <input type="text" v-model="searchValue" />
